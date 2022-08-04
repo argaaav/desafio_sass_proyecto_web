@@ -1,0 +1,97 @@
+body {
+  background-image: url(/img/white-paper-texture.jpg);
+  margin: 0;
+  padding: 0; }
+  body header {
+    font: "Oswald", sans-serif;
+    size: 60px;
+    color: black; }
+    body header ul {
+      font: "Oswald", sans-serif;
+      size: 60px; }
+
+form {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  margin-left: 90px;
+  margin-right: 90px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  background-color: #a7aeb4;
+  border: #a7aeb4 2px thin;
+  text-align: center;
+  font-size: 20px; }
+
+h2 {
+  text-align: center;
+  font: "Oswald", sans-serif;
+  size: 60px;
+  color: black; }
+
+#cuadroFotos {
+  border: #393e41 2px none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+
+.imagenesPortadas {
+  object-fit: contain;
+  max-width: 100%;
+  max-height: 100%;
+  margin-bottom: 10px;
+  align-items: center;
+  padding-left: 90px;
+  padding-bottom: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); }
+
+.fotos {
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
+.noticiaTitulo {
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  font-size: 35px; }
+
+.imagenLali {
+  height: 250px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
+.primernoticia {
+  justify-content: space-between;
+  align-items: center;
+  border: 1px #36393b thin;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  background-color: #e9ecef;
+  text-align: center;
+  padding-left: 30px;
+  margin-bottom: 30px;
+  margin-left: 180px;
+  margin-right: 180px;
+  padding-right: 30px;
+  padding-bottom: 30px; }
+
+.boton {
+  font-size: 20px;
+  padding-left: 15px;
+  padding-right: 15px; }
+
+.ranking {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-bottom: 50px;
+  padding-top: 20px;
+  padding-left: 50px;
+  margin-left: 170px;
+  margin-right: 700px;
+  margin-bottom: 100px;
+  padding-right: 50px;
+  font-size: 20px;
+  border: 2px gray dashed;
+  width: 1000px;
+  height: 600px; }
